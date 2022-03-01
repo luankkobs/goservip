@@ -54,7 +54,7 @@ func buscarIps(c *cli.Context) {
 func buscarServidores(c *cli.Context) {
 	host := c.String("host")
 
-	servdirores, erro := net.LookupNS(host) //name server
+	servidores, erro := net.LookupNS(host) //name server
 	if erro != nil {
 		log.Fatal(erro)
 	}
