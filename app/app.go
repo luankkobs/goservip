@@ -59,7 +59,7 @@ func buscarServidores(c *cli.Context) {
 		log.Fatal(erro)
 	}
 
-	for _, servidor := range servdirores {
+	for _, servidor := range servidores {
 		fmt.Println(servidor)
 	}
 }
